@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "start": "node server.js",
     "clean": "rm -rf dist",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "deploy:firebase": "npx -y firebase-tools@latest deploy --only hosting",
+    "serve:firebase": "npx -y firebase-tools@latest emulators:start --only hosting"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
