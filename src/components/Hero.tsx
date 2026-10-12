@@ -58,7 +58,7 @@ export default function Hero() {
           >
             {/* Mónica's image */}
             <img 
-              src="/_DSC5114.jpg" 
+              src={`${import.meta.env.BASE_URL}_DSC5114.jpg`}
               alt="Mónica Martínez Vargas" 
               className="object-cover object-top w-full h-full"
             />

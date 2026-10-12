@@ -39,7 +39,7 @@ export default function TwoWings() {
           >
             <div className="absolute inset-0 bg-[var(--color-olive-deep)]/20 blur-3xl rounded-full transform scale-90 translate-y-4 -z-10" />
             <img
-              src="/book10.png"
+              src={`${import.meta.env.BASE_URL}book10.png`}
               alt="Two Wings of Leadership Book Cover"
               className="w-full h-auto drop-shadow-2xl hover:scale-[1.02] transition-transform duration-500"
             />
